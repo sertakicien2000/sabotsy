@@ -50,11 +50,7 @@ class Particulier extends Component {
                                                     <li class="nav-item">
                                                         <Link class="nav-link" to="/posterAtelier"className="btn btn-primary" style={{fontSize:"1.5em",marginTop:"20px",heigth:"4px", color:"white",backgroundColor:"#f3671f",border:"none"}}> Ajouter Plus</Link>
                                                     </li>
-                                                    <li class="nav-item active">
-                                                        <Link class="nav-link" exact to="/Profil" className="btn btn-primary" style={{fontSize:"1.5em",marginTop:"20px",heigth:"4px", color:"white",backgroundColor:"#f3671f",border:"none"}}>Profile
-                                                     <span class="sr-only">(current)</span>
-                                                        </Link>
-                                                    </li>
+                                                    
                                                     <li class="nav-item">
                                                         <Link class="nav-link" to="/" className="btn btn-primary" style={{fontSize:"1.5em",marginTop:"20px",heigth:"4px", color:"white",backgroundColor:"#f3671f",border:"none"}} onClick={
                                                             () => {
